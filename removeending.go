@@ -7,5 +7,5 @@ func RemoveEnding(s string) string {
 	if len < 0 {
 		return s
 	}
-	return evenmorestrings.DoubleString(string(s[len-1]))
+	return evenmorestrings.CallAnotherPackTripleStr(string(s[len-1]))
 }
